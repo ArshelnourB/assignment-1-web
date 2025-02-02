@@ -87,7 +87,7 @@
                         <input type="submit" class="button" value="Add Student">
                     </div>
                 </form>
-                <!--<div class="submit">
+                <div class="submit">
                     <?php
                         require_once ("database.php");
                         if(isset($_POST) & !empty($_POST)){
@@ -108,7 +108,7 @@
                             }
                         }
                     ?>
-                </div>-->
+                </div>
             </section>
         </main>
     </body>
