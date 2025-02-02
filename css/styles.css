@@ -1,0 +1,70 @@
+html{
+    scroll-behavior: smooth;
+    background-image: url("../img/Hero-Image-Final.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 200%;
+    padding-top: 100px;
+    text-shadow: 2px 2px 2px magenta;
+    text-decoration: underline;
+}
+
+.link-bar{
+    display: flex;
+    align-items: center;
+    background-color: indigo;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: auto;
+    width: 2000px;
+}
+.link-bar img{
+    width: 80px;
+    height: 80px;
+    padding-left: 15px;
+}
+.link-bar menu a{
+    color: white;
+    text-decoration: none;
+}
+.link-bar menu li{
+    list-style: none;
+}
+h1{
+    color: black;
+}
+div{
+    background-color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+}
+.button{
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+}
+
+input,select{
+    height: 20px;
+    width: 200px;
+    color: black;
+    background-color: lightcoral;
+    border: 1px dotted black;
+}
+
